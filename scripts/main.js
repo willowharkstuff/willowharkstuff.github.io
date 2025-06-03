@@ -1,4 +1,4 @@
-// const myHeading = document.querySelector("h1");
+/*// const myHeading = document.querySelector("h1");
 // myHeading.textContent = "Hello world!";
 
 // const myImage = document.querySelector("img");
@@ -29,4 +29,4 @@ if (!localStorage.getItem("name")) {
 }
 myButton.addEventListener("click", () => {
   setUserName();
-});
+});*/
