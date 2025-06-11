@@ -11,23 +11,42 @@
     "wdth" auto;
 }
 
+/*
+n | 6.25 n
+1 | 6.25
+2 | 12.5
+3 | 18.75
+4 | 25
+5 | 31.25
+6 | 37.5
+7 | 43.75
+8 | 50
+9 | 56.25
+10 | 62.5
+11 | 68.75
+12 | 75
+13 | 81.25
+14 | 87.5
+15 | 93.75
+*/
+
 :root {
-  --charcoal: lch(9.65% 12.71 78.09);
-  --parchement: lch(96% 5 91.44);
-  --scarlet: lch(40% 81.62 41.44);
-  --cerulean: lch(40% 25.23 229.86);
-  --pine: lch(40% 49.46 144.71);
-  --charcoal: lch(96% 5 91.44);
-  --charcoal: lch(96% 5 91.44);
-  --charcoal: lch(96% 5 91.44);
-  --charcoal: lch(96% 5 91.44);
-  --charcoal: lch(96% 5 91.44);
-  --charcoal: lch(96% 5 91.44);
-  --charcoal: lch(96% 5 91.44);
-  --charcoal: lch(96% 5 91.44);
-  --charcoal: lch(96% 5 91.44);
-  --charcoal: lch(96% 5 91.44);
-  --charcoal: lch(96% 5 91.44);
+  --charcoal: lch(12.5% 18.75 80);
+  --parchement: lch(93.75% 6.25 88);
+  --carnelian: lch(50% 81.25 40);
+  --cerulean: lch(50% 25 230);
+  --pine: lch(50% 50 145);
+  --dandelion: lch(81.25% 81.25 85);
+  --burgundy: lch(25%  43.75 50);
+  --rose: lch(62.5% 43.37 15);
+  --lavender: lch(81.25% 37.5 305);
+  --tangerine: lch(62.5% 75 73.87);
+  --ash: lch(62.5% 6.25 275);
+  --ice: lch(87.5% 43.75 195);
+  --mantis: lch(81.25% 81.25 125);
+  --sand: lch(75% 31.25 85);
+  --tekhelet: lch(6.25% 43.75 303.45);
+  --slate: lch(18.75% 6.25 258.15);
 
   --default-font-size: 2vw;
 }
@@ -63,30 +82,77 @@
   padding-top: 30%;
 }
 
-#Scarlet {
-  background-color: var(--scarlet);
+#Charcoal {
+  background-color: var(--charcoal);
+  color: white;
 }
 
-#Cerulean {
-  background-color: var(--cerulean);
+#Parchment {
+  background-color: var(--parchement);
+}
+
+#Carnelian {
+  background-color: var(--carnelian);
 }
 
 #Pine {
   background-color: var(--pine);
 }
 
-#Parchment{
-  background-color: var(--parchement);
+#Dandelion {
+  background-color: var(--dandelion);
 }
 
-#Charcoal{
-  background-color: var(--charcoal);
+#Cerulean {
+  background-color: var(--cerulean);
+  color: white;
 }
 
+#Burgundy {
+  background-color: var(--burgundy);
+  color: white;
+}
 
+#Rose {
+  background-color: var(--rose);
+}
+
+#Lavender {
+  background-color: var(--lavender);
+}
+
+#Tangerine {
+  background-color: var(--tangerine);
+}
+
+#Ash {
+  background-color: var(--ash);
+}
+
+#Ice {
+  background-color: var(--ice);
+}
+
+#Mantis {
+  background-color: var(--mantis);
+}
+
+#Sand {
+  background-color: var(--sand);
+}
+
+#Tekhelet {
+  background-color: var(--tekhelet);
+  color: white;
+}
+
+#Slate {
+  background-color: var(--slate);
+  color: white;
+}
 
 html {
-  background-color: var(--scarlet);
+  background-color: var(--carnelian);
 }
 
 body {
