@@ -1,0 +1,18 @@
+:root {
+  --charcoal: lch(12.5% 18.75 80);
+  --parchement: lch(93.75% 6.25 88);
+  --carnelian: lch(50% 81.25 40);
+  --cerulean: lch(50% 25 230);
+  --pine: lch(50% 50 145);
+  --dandelion: lch(81.25% 81.25 85);
+  --burgundy: lch(25%  43.75 50);
+  --rose: lch(62.5% 43.37 15);
+  --lavender: lch(81.25% 37.5 305);
+  --tangerine: lch(62.5% 75 73.87);
+  --ash: lch(62.5% 6.25 275);
+  --ice: lch(87.5% 43.75 195);
+  --mantis: lch(81.25% 81.25 125);
+  --sand: lch(75% 31.25 85);
+  --tekhelet: lch(6.25% 43.75 303.45);
+  --slate: lch(18.75% 6.25 258.15);
+}

@@ -1,0 +1,112 @@
+/* <weight>: Use a value from 100 to 900
+ <width>: Use a value from 62.5 to 100
+ <uniquifier>: Use a unique and descriptive class name */
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" auto;
+}
+
+#container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 20vw;
+  border: 3px solid black;
+}
+
+.colour-box-wrapper {
+  background-color: white;
+  margin: auto;
+  display: grid;
+  width: 70%;
+  height: 70%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  column-gap: 1fr;
+  row-gap: 1fr;
+}
+
+.colour-box {
+  flex: 1;
+  margin: 5%;
+  border: 3pt;
+  padding: 12%;
+  text-align: center;
+  padding-top: 30%;
+}
+
+#Charcoal {
+  background-color: var(--charcoal);
+  color: white;
+}
+
+#Parchment {
+  background-color: var(--parchement);
+}
+
+#Carnelian {
+  background-color: var(--carnelian);
+}
+
+#Pine {
+  background-color: var(--pine);
+}
+
+#Dandelion {
+  background-color: var(--dandelion);
+}
+
+#Cerulean {
+  background-color: var(--cerulean);
+  color: white;
+}
+
+#Burgundy {
+  background-color: var(--burgundy);
+  color: white;
+}
+
+#Rose {
+  background-color: var(--rose);
+}
+
+#Lavender {
+  background-color: var(--lavender);
+}
+
+#Tangerine {
+  background-color: var(--tangerine);
+}
+
+#Ash {
+  background-color: var(--ash);
+}
+
+#Ice {
+  background-color: var(--ice);
+}
+
+#Mantis {
+  background-color: var(--mantis);
+}
+
+#Sand {
+  background-color: var(--sand);
+}
+
+#Tekhelet {
+  background-color: var(--tekhelet);
+  color: white;
+}
+
+#Slate {
+  background-color: var(--slate);
+  color: white;
+}

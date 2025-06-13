@@ -1,0 +1,66 @@
+:root{
+  --default-font-size: 18pt;
+}
+
+html {
+  background-color: var(--carnelian);
+}
+
+body {
+  background-color: whitesmoke;
+  /*width: min(19.1%, 8.27in);*/
+  width: 19.1%;
+  /*width: 8.72in;*/
+  margin: auto;
+
+  font-family: "Noto Serif", serif;
+  font-size: calc(var(--default-font-size));
+  font-style: normal;
+  padding: 12.09%;
+  line-height: 2;
+}
+
+/*level 1 header*/
+h1 {
+  font-weight: bold;
+  font-size: calc(var(--default-font-size) + 5pt);
+  text-align: center;
+  margin: 0%;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: calc(var(--default-font-size) + 3pt);
+  text-align: center;
+  font-style: italic;
+  margin: 0%;
+}
+
+h2 {
+  font-weight: bold;
+  margin: 0%;
+}
+
+h5 {
+  font-weight: normal;
+  font-style: italic;
+  margin: 0%;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: inherit;
+  margin: 0%;
+}
+
+h6 {
+  font-weight: normal;
+  font-size: inherit;
+  margin: 0%;
+}
+
+p,
+li {
+  margin: 0%;
+  text-indent: 1in;
+}
